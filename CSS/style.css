@@ -1,0 +1,116 @@
+/* hidden 창에서 안보이게 하는 것*/
+.hidden {
+  display: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bg {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#clock {
+  font-size : 145px; 
+  font-family: 'SBAggroB';
+}
+
+#greeting { 
+  font-size : 50px; 
+}
+
+.login-box {
+  width: 200px;
+  height: 35px;
+  border-radius: 15px;
+  border-width: 0px;
+  text-align: center;
+}
+
+.submit-box {
+  border-radius: 10px;
+  border-width: 0;
+  width: 80px;
+  height: 30px;
+  color: white;
+  text-decoration: solid;
+  font-size: 15px;
+  background-color: black;
+}
+
+#quote{
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.todo-box {
+  margin-top: 15px;
+  width: 300px;
+  height: 35px;
+  border-radius: 15px;
+  border-width: 0px;
+  text-align: center;
+}
+
+li::marker {
+  content: none;
+}
+
+#todo-h2 {
+  margin-top: 20px;
+  font-size: 30px;
+  background-color: white;
+  border-radius: 15px;
+  width: 200px;
+  text-align: center;
+  opacity: 0.8;
+  font-weight: bolder;
+}
+
+#todo-list {
+  justify-content: center;
+  align-items: center;
+}
+
+#todo-list span {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#todo-list button {
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+
+#weather {
+  text-align: center;
+  width: 400px;
+  font-family: 'LeferiPoint-WhiteObliqueA';
+  font-size : 30px; 
+  color: black;
+  font-weight: bolder;
+  background-color:white;
+  opacity: 0.7;
+  border-radius: 20px;
+  border-width: 0px;
+}
